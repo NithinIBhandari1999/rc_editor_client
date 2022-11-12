@@ -1,0 +1,48 @@
+.s1 {
+    &SidebarItemContainer {
+        display: flex;
+        cursor: pointer;
+    }
+
+    &SidebarItemImage {
+        width: 18px;
+        height: 40px;
+        object-fit: contain;
+    
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    &SidebarItemLabel {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 40px;
+    
+        color: #6c6c6c;
+    
+        text-decoration: none;
+    
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &Active {
+            font-family: "Mulish";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 40px;
+        
+            color: #0d6efd;
+        
+            text-decoration: none;
+        
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}

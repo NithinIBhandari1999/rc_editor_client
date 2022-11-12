@@ -1,0 +1,78 @@
+.sidebarContainer {
+	width: 300px;
+	position: fixed;
+	display: block;
+	top: 61px;
+	bottom: 0px;
+	z-index: 250;
+	background-color: #ffffff;
+}
+.sidebarContainerSm {
+	display: none;
+}
+
+.sidebarContainer2 {
+	height: calc(100vh - 60px);
+	overflow-y: auto;
+
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.rightSide {
+	width: 100vw;
+	margin-left: 0px;
+	height: calc(100vh - 60px);
+	background-color: #fafafa;
+}
+.rightSideLg {
+	width: calc(100vw - 300px);
+	margin-left: 300px;
+	height: calc(100vh - 60px);
+	background-color: #fafafa;
+}
+
+// ------
+// Sidebar
+.sectionSidebarItemContainer {
+	display: flex;
+	cursor: pointer;
+}
+.sectionSidebarItemLabel {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 45px;
+
+	color: #6c6c6c;
+
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.sectionSidebarItemLabelActive {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 45px;
+
+	color: #0d6efd;
+
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.sectionSidebarItemImage {
+	width: 18px;
+	height: 45px;
+	object-fit: contain;
+
+	margin-left: 14px;
+	margin-right: 14px;
+}

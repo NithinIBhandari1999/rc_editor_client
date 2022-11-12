@@ -1,0 +1,32 @@
+{
+  "name": "rc_editor_client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.4.6",
+    "axios": "^1.1.3",
+    "bootstrap": "^5.2.2",
+    "firebase": "^9.13.0",
+    "jotai": "^1.9.1",
+    "next": "13.0.0",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "sass": "^1.55.0",
+    "socket.io-client": "^4.5.3",
+    "use-debounce": "^8.0.4",
+    "wouter": "^2.8.0-alpha.2"
+  },
+  "devDependencies": {
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}

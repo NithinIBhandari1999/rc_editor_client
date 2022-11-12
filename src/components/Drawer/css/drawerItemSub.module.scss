@@ -1,0 +1,41 @@
+.s1 {
+    &SidebarItemContainer {
+        display: flex;
+        cursor: pointer;
+
+        padding-left: 50px;
+    }
+
+    &SidebarItemLabel {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 40px;
+
+        color: #6c6c6c;
+
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &Active {
+            font-family: "Mulish";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 40px;
+
+            color: #0d6efd;
+
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+}

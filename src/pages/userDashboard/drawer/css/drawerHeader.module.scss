@@ -1,0 +1,129 @@
+.componentHeader {
+    --headerHeight: 60px;
+}
+
+.headerContainer1 {
+    background-color: #ffffff;
+
+    position: fixed;
+    top: 0;
+
+    height: 60px;
+    width: 100%;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
+
+    z-index: 1000;
+}
+
+.headerContainer2 {
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerWebsiteName {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+
+    color: #0d6efd;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.headerIconMenuContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerIconMenu {
+    width: 36px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.headerLink {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+
+    color: #6b6b6b;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+}
+
+.headerLinkActive {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0d6efd;
+}
+
+// For Small Screen
+#tooltipHeaderMain {
+    opacity: 1;
+
+    :global .tooltip-inner {
+        text-align: left;
+        color: #6b6b6b;
+
+        border-radius: 0px;
+        background: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 200px;
+        opacity: 1;
+    }
+
+    :global .tooltip-arrow::before {
+        border-bottom-color: #ffffff;
+    }
+
+}
+
+.headerLinkSm {
+    display: block;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+
+    color: #6b6b6b;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    text-decoration: none;
+}
+
+.headerLinkSm:hover {
+    text-decoration: underline;
+}
+
+.headerLinkSmActive {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0d6efd;
+}
